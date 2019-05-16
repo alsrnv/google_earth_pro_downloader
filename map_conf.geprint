@@ -1,0 +1,62 @@
+[General]
+camera="@ByteArray(<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<kml xmlns=\"http://www.opengis.net/kml/2.2\" xmlns:gx=\"http://www.google.com/kml/ext/2.2\" xmlns:kml=\"http://www.opengis.net/kml/2.2\" xmlns:atom=\"http://www.w3.org/2005/Atom\">\n<Placemark>\n\t<LookAt>\n\t\t<gx:TimeSpan>\n\t\t\t<begin>2019-05-14T11:43:03.115674Z</begin>\n\t\t\t<end>2019-05-14T11:43:03.115676Z</end>\n\t\t</gx:TimeSpan>\n\t\t<gx:ViewerOptions>\n\t\t\t<gx:option name=\"historicalimagery\"></gx:option>\n\t\t\t<gx:option enabled=\"0\" name=\"sunlight\"></gx:option>\n\t\t\t<gx:option enabled=\"0\" name=\"streetview\"></gx:option>\n\t\t</gx:ViewerOptions>\n\t\t<longitude>37.66200000000003</longitude>\n\t\t<latitude>55.60620000000002</latitude>\n\t\t<altitude>0</altitude>\n\t\t<heading>-3.498610149609867e-14</heading>\n\t\t<tilt>0</tilt>\n\t\t<range>999.9999999993751</range>\n\t\t<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>\n\t</LookAt>\n</Placemark>\n</kml>\n)"
+color_mode=0
+print_flags=0
+print_quality=9
+print_type=0
+save_image_quality=6
+scaling_factor=1
+version=2
+
+[Compass]
+Layout\anchor_halign=2
+Layout\anchor_pos=@Variant(\0\0\0\x1a?\xf0\0\0\0\0\0\0?\xef/\x5@\0\0\0)
+Layout\anchor_valign=2
+Layout\size=@Size(72 72)
+Layout\visible=false
+
+[Copyright]
+Layout\anchor_halign=0
+Layout\anchor_pos=@Variant(\0\0\0\x1a\0\0\0\0\0\0\0\0?\xf0\0\0\0\0\0\0)
+Layout\anchor_valign=2
+Layout\size=@Size(152 58)
+Layout\visible=true
+
+[HTML%20Area]
+Layout\anchor_halign=0
+Layout\anchor_pos=@Variant(\0\0\0\x1a\0\0\0\0\0\0\0\0?\xe0\0\0\0\0\0\0)
+Layout\anchor_valign=1
+Layout\size=@Size(406 98)
+Layout\visible=false
+html="<!doctype html>\n<html>\n<head>\n<style type='text/css'>\nbody {\n    font: 100% 'Arial', 'Helvetica', sans-serif;\n    margin: 0;\n}\n\n#white_box {\n    background-color: rgba(255, 255, 255, 0.85);\n    bottom: 4pt;\n    color: rgba(0, 0, 0, 0.85);\n    left: 4pt;\n    outline: 1pt solid rgba(0, 0, 0, 0.2);\n    padding: 8pt 8pt;\n    position: absolute;\n    right: 4pt;\n    top: 4pt;\n}\n</style>\n</head>\n<body>\n<div id='white_box'>\n<p style='font-size: 11pt; white-space: nowrap;'>\nEdit this HTML to add a logo image or custom map title.&nbsp;&nbsp;&nbsp;&nbsp;\n<br />\nUse an <tt>iframe</tt> tag to display an external page.&nbsp;&nbsp;&nbsp;&nbsp;\n</p>\n<div style='height: 12pt; font-size: 0;'>&nbsp;</div>\n</div>\n</body>\n</html>\n"
+
+[Legend]
+Features\1\checked=true
+Features\1\name="55.6062,37.6620 "
+Features\1\pixmap="@Variant(\0\0\0\x41\0\0\0\x1\x89PNG\r\n\x1a\n\0\0\0\rIHDR\0\0\0\x10\0\0\0\x10\b\x6\0\0\0\x1f\xf3\xff\x61\0\0\0\tpHYs\0\0\v\x13\0\0\v\x13\x1\0\x9a\x9c\x18\0\0\x1\xc8IDAT8\x8d\x8d\x92\xbdK[Q\x18\xc6\x7f\xe7\x44\x62\x84`[J\xa1uHIJ\x87\xc6%P\xdc,N\xe2P\xe8T\x87N\xe\x1\xff\x5\x17%[6\xa1\x43\x9c\xea\"\xd8\x42\xa9\x42'\x1b\x11\xa1\x97H\xb1\x19\xa4HD\x87;\xd4;\xa4\\\xb0&\xa1\x17\x8c\xde\x8f\xb7\xc3mJ\x9a\xaf\xe6\x81\x33\x9c\x97\xe7\xfd\xf1\x9e\xe7\xbc\x8a\xde\xba\x97\xcf\xebr2\xc9\xa8m\xabJ\xb1\xa8\xf6\x8a\x45\xef=`\xf5\xf1w\x3\x36\x36\xb4{|\x8c\\]!A\x80\x1c\x1ejwy9\xf2\x1H\rE\x98\x9f\x1fy]\xa9 \x86\x81\x94\xcb\xc8\xc9\trq\x81\xac\xafGj\xc0\xdd\x96O\xf7\x3LO\xfb\x93\xb1\x18\x8c\x8d\x81R\xd0l\xc2\xfe\xbe\xc6\x30\xf8\x2\xd4[\xbe\x91>\xfd\xb7R)\x9e\xb9.\x8c\x8f\x87\x85\xebkX\\\f^6\x1al\xb7\x1b{N\x90H0\x9b\xc9\xc8h\xeb.\x2\x86\xa1~4\x1a|\xec\xf4\xfe\x33\x41,Fri)\x92\x9f\x9a\x92Y\xd7\rP*\xacG\xa3pp\xa0\xde\x82\xf8\xfd\x9e\fp{sS[\"\xc8\xe5\x65\x18\xda\xd9YxJ%%\xc0\xcc\xa0\x66&&\xa2\xaf|_\x89\b\"\x82\xd4\xeb\x88\x65!\xa6\x89T\xab\xc8\xea\xaa\xfa:\x10\0<\xdc\xdd\xd5\xbf\x1c'\xfc\xfb\x9b\x1b\xc4\xf3\x10\xdfG\\\x17\x39=U\x2\x64\x6\x65p\xbe\xb0\x10\xbcXY\xd1\xef\xe6\xe6\x82\xfb\xae\xcb\xdf\fD\xa0V\x13\0\xe9\x4\x44\xda/\x8e\xc3\xf7\x9d\x1dyc\x9a\x89G\xc9\xe4\xd3\xc7\xd5\xea\x39\"h\xcb\xd2\xb2\xb5\xa5\xb7\x8f\x8e\x64\xad\x17\xa4K\xb9\\\xeeS6\x9b]#\xdc\xb8'\xc0\x83\xff\x36\xb5\xe9N\xa1Ph\xc6\xe3\xf1\xc1\xa9\xffQ\xd7\"\xa5\xd3\xe9\xe7\x9e\xe7\xfdt\x1c\xa7\x34\f \xd2Y\x10\x91I\xd3\x34?\xdb\xb6\xfdm\x18\xc0o\r\x1c\xceZ'\xe2\x93#\0\0\0\0IEND\xae\x42`\x82)"
+Features\size=1
+Layout\anchor_halign=2
+Layout\anchor_pos=@Variant(\0\0\0\x1a?\xf0\0\0\0\0\0\0\0\0\0\0\0\0\0\0)
+Layout\anchor_valign=0
+Layout\size=@Size(183 80)
+Layout\visible=false
+
+[Printer]
+orientation=1
+paper_size=2
+
+[Scale]
+Layout\anchor_halign=2
+Layout\anchor_pos=@Variant(\0\0\0\x1a?\xf0\0\0\0\0\0\0?\xf0\0\0\0\0\0\0)
+Layout\anchor_valign=2
+Layout\size=@Size(360 20)
+Layout\visible=false
+
+[Title%20and%20Description]
+Layout\anchor_halign=0
+Layout\anchor_pos=@Variant(\0\0\0\x1a\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0)
+Layout\anchor_valign=0
+Layout\size=@Size(253 82)
+Layout\visible=false
+description=Write a description for your map.
+title=
