@@ -2,3 +2,4 @@ data/
 image/
 __pycache__/
 log.log
+test.py

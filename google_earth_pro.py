@@ -4,8 +4,27 @@ import pyautogui
 import os
 import time
 import logging
+try:
+	import httplib
+except:
+	import http.client as httplib
+
 
 CURRENT_PATH = os.getcwd()
+
+
+def have_internet():
+	"""Checking internet connection"""
+	conn = httplib.HTTPConnection("www.google.com", timeout=5)
+	try:
+		conn.request("HEAD", "/")
+		conn.close()
+		return True
+	except:
+		conn.close()
+		return False
+
+
 
 class ImageSet():
 	def __init__(self, coordinates):
@@ -53,6 +72,8 @@ class ImageSet():
 		self.click_on_button(config.GOOGLE_EARTH_INT['cancelSaveButton'])
 
 		#click on save button again
+		while not have_internet():
+			time.sleep(10)
 		self.click_on_button(config.GOOGLE_EARTH_INT['saveImageFile'])
 		pyautogui.typewrite(image_name)
 
@@ -63,8 +84,10 @@ class ImageSet():
 		return os.path.exists(path)
 
 	def start_downloading(self):
-		#logging.info('starting downloading {}'.format(self.coordinates))
-		# finding location by coordinates
+
+		while not have_internet():
+			time.sleep(10)
+
 		self.start_searching(self.coordinates)
 		
 		self.open_history_panel()
@@ -77,13 +100,16 @@ class ImageSet():
 		for step in range(1, config.HISTORY_STEPS + 1):
 			new_image_file = self.coordinates + '_' + str(step)
 
+			while not have_internet():
+				time.sleep(10)
+
 			self.click_on_button(config.GOOGLE_EARTH_INT['moveBackHistory'])
 			time.sleep(3)
 			self.save_image(image_name = new_image_file)
 
 			while not self.check_is_file_exist(file_name = new_image_file):
 				time.sleep(2)
-		    
+			
 			time.sleep(7)
 
 
